@@ -1,0 +1,7 @@
+.selektovane-kockice {
+  transition: 300ms;
+  transform: translateY(-0.3rem);
+}
+.neselektovana-kockica {
+  transform: translateY(0);
+}

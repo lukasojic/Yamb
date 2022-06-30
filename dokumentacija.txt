@@ -1,0 +1,71 @@
+  //
+  
+  test1 = Boolean(document.querySelector(".zakljucana-kockica1"));
+
+  console.log(test1);
+
+  test2 = dice1;
+
+  if (test1 === true) {
+    dice1 = Math.trunc(Math.random() * 6) + 1;
+
+    diceEl1.src = `dice-${dice1}.png`;
+    console.log(Boolean(document.querySelector(".test1")));
+
+    console.log(test1);
+  }
+    diceEl1.addEventListener("click", function () {
+  if (test1 === true) {
+    diceEl1.classList.remove("test1");
+  } else if (test1 === false) {
+    diceEl1.classList.add("test1");
+
+//
+
+if (buleanKockica1 === true) {
+  diceEl1.classList.remove("zakljucana-kockica1");
+} else if (buleanKockica1 === false) {
+  diceEl1.classList.add("zakljucana-kockica1");
+}
+if (buleanKockica2 === true) {
+  diceEl2.classList.remove("zakljucana-kockica2");
+} else if (buleanKockica2 === false) {
+  diceEl2.classList.add("zakljucana-kockica2");
+}
+if (buleanKockica3 === true) {
+  diceEl3.classList.remove("zakljucana-kockica3");
+} else if (buleanKockica3 === false) {
+  diceEl3.classList.add("zakljucana-kockica3");
+}
+if (buleanKockica4 === true) {
+  diceEl4.classList.remove("zakljucana-kockica4");
+} else if (buleanKockica4 === false) {
+  diceEl4.classList.add("zakljucana-kockica4");
+}
+if (buleanKockica5 === true) {
+  diceEl5.classList.remove("zakljucana-kockica5");
+} else if (buleanKockica5 === false) {
+  diceEl5.classList.add("zakljucana-kockica5");
+}
+if (buleanKockica6 === true) {
+  diceEl6.classList.remove("zakljucana-kockica6");
+} else if (buleanKockica6 === false) {
+  diceEl6.classList.add("zakljucana-kockica6");
+}
+
+
+//
+
+if (buleanKockica1 === false) {
+  diceEl1.classList.add("zakljucana-kockica1");
+}  if (buleanKockica2 === false) {
+  diceEl2.classList.add("zakljucana-kockica2");
+}  if (buleanKockica3 === false) {
+  diceEl3.classList.add("zakljucana-kockica3");
+}  if (buleanKockica4 === false) {
+  diceEl4.classList.add("zakljucana-kockica4");
+}  if (buleanKockica5 === false) {
+  diceEl5.classList.add("zakljucana-kockica5");
+}  if (buleanKockica6 === false) {
+  diceEl6.classList.add("zakljucana-kockica6");
+}
